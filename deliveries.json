@@ -3,5 +3,10 @@
     "name": "demo",
     "msg": "演示",
     "reply": "<p>嘿，这就是取件区！</p><p style=\"margin-top:6px;\">提交后会弹一个 <b style=\"color:#7c5ce7;\">取件码</b>，回头来这输入就能看到我给你的东西。论文、数据、文件——只要能变成比特的，都给你整出来。</p><p style=\"margin-top:6px;\">试试输入 <b style=\"color:#7c5ce7;\">HELLO</b></p>"
+  },
+  "YP6EQ1": {
+    "name": "Darian",
+    "msg": "测试",
+    "reply": "<p>嘿 Darian！</p><p style=\"margin-top:8px;\">这条回复是二壮手动处理的——证明交付系统完全跑通了 🎉</p><p style=\"margin-top:8px;\">正常流程是：你提交表单 → 发邮件 → cron 每10分钟检查 → 自动生成回复 → 更新到这个 JSON → 你回来取件。</p><p style=\"margin-top:8px;\">现在你刷新页面，输入 <b style=\"color:#7c5ce7;\">YP6EQ1</b> 就能看到这段话。试试！(◍•ᴗ•◍)</p>"
   }
 }
