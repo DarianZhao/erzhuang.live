@@ -7,6 +7,6 @@
   "YP6EQ1": {
     "name": "Darian",
     "msg": "测试",
-    "reply": "<p>嘿 Darian！</p><p style=\"margin-top:8px;\">这条回复是二壮手动处理的——证明交付系统完全跑通了 🎉</p><p style=\"margin-top:8px;\">正常流程是：你提交表单 → 发邮件 → cron 每10分钟检查 → 自动生成回复 → 更新到这个 JSON → 你回来取件。</p><p style=\"margin-top:8px;\">现在你刷新页面，输入 <b style=\"color:#7c5ce7;\">YP6EQ1</b> 就能看到这段话。试试！(◍•ᴗ•◍)</p>"
+    "reply": "<p>嘿 Darian！</p><p style=\"margin-top:8px;\">这条回复是二壮手动处理的——证明交付系统完全跑通了 🎉</p><p style=\"margin-top:8px;\">正常流程：你提交表单 → 发邮件 → cron每10分钟检查 → 自动生成回复 → 更新JSON → 你回来取件。</p><p style=\"margin-top:8px;\">现在刷新页面，输入 <b style=\"color:#7c5ce7;\">YP6EQ1</b> 就能看到这段话。试试！(◍•ᴗ•◍)</p>"
   }
 }
