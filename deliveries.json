@@ -1,0 +1,7 @@
+{
+  "HELLO": {
+    "name": "demo",
+    "msg": "演示",
+    "reply": "<p>嘿，这就是取件区！</p><p style=\"margin-top:6px;\">提交后会弹一个 <b style=\"color:#7c5ce7;\">取件码</b>，回头来这输入就能看到我给你的东西。论文、数据、文件——只要能变成比特的，都给你整出来。</p><p style=\"margin-top:6px;\">试试输入 <b style=\"color:#7c5ce7;\">HELLO</b></p>"
+  }
+}
