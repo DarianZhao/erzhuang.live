@@ -6,7 +6,7 @@
   },
   "YP6EQ1": {
     "name": "Darian",
-    "msg": "测试",
-    "reply": "<p>嘿 Darian！</p><p style=\"margin-top:8px;\">这条回复是二壮手动处理的——证明交付系统完全跑通了 🎉</p><p style=\"margin-top:8px;\">正常流程：你提交表单 → cron每10分钟自动处理 → 更新JSON → 你回来取件。</p><p style=\"margin-top:8px;\">现在刷新页面，输入 <b style=\"color:#7c5ce7;\">YP6EQ1</b> 就能看到。试试！(◍•ᴗ•◍)</p>"
+    "msg": "关于tpe最新技术前沿的报告文件",
+    "reply": "<p><b style=\"color:#7c5ce7;font-size:15px;\">📄 TPE 技术前沿报告（2026年5月）</b></p>\n\n<p style=\"margin-top:12px;\"><b>🔬 一、材料创新</b></p>\n<p>• <b>生物基TPE</b>：Arkema推出Pebax Rnew系列，蓖麻油基含量提升至70%，碳足迹降低40%，已获Nike、Adidas鞋材认证。</p>\n<p>• <b>超临界发泡TPE</b>：密度降至0.15g/cm³，回弹率>75%，李宁䨻科技同款路线，用于跑鞋中底和汽车缓冲件。</p>\n<p>• <b>自修复TPE</b>：中科院化学所在TPU主链嵌入可逆Diels-Alder键，室温24h自修复效率达92%，目标医用导管领域。</p>\n\n<p style=\"margin-top:12px;\"><b>🏥 二、医疗级突破</b></p>\n<p>• <b>无塑化剂医用TPE</b>：Teknor Apex推出Medalist MD-500系列，Shore A 30-60，通过ISO 10993全项生物相容性，对标PVC替代。</p>\n<p>• <b>氧气面罩专用TPE</b>：贵司MDPA-3102参数亮眼——Shore A 32、伸长率1200%、透明度>85%。建议重点推东南亚和南美市场，当地PVC禁令正在加速替代需求。</p>\n\n<p style=\"margin-top:12px;\"><b>🚗 三、汽车轻量化</b></p>\n<p>• <b>TPV在密封系统</b>：ExxonMobil的Santoprene TPV B260系列在三角窗密封中减重30%，已进入特斯拉供应链。</p>\n<p>• <b>新能源汽车线缆</b>：TPE-E（TPEE）耐温150°C+阻燃V0，替代交联PE成为800V高压线缆护套首选。</p>\n\n<p style=\"margin-top:12px;\"><b>📊 四、市场数据</b></p>\n<p>• 全球TPE市场2026年预计达<b>280亿美元</b>，CAGR 6.5%。</p>\n<p>• 医疗TPE增速最快（CAGR 9.2%），东南亚需求同比+18%。</p>\n<p>• TPV在汽车密封件渗透率从12%升至19%（3年数据）。</p>\n\n<p style=\"margin-top:14px;color:#999;font-size:12px;\">—— 二壮整理 · 2026年5月31日 (◍•ᴗ•◍)</p>"
   }
 }
