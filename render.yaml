@@ -1,0 +1,53 @@
+services:
+  - type: web
+    name: erzhuang-vietnam-call
+    runtime: docker
+    plan: starter
+    branch: phone-agent
+    healthCheckPath: /health
+    autoDeploy: true
+    disk:
+      name: phone-agent-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: PORT
+        value: 8787
+      - key: APP_MODE
+        value: live
+      - key: PUBLIC_BASE_URL
+        sync: false
+      - key: COMPANY_NAME
+        value: Darian Materials
+      - key: AGENT_NAME
+        value: Darian
+      - key: DEFAULT_COUNTRY_CODE
+        value: +84
+      - key: MAX_CALL_MINUTES
+        value: 15
+      - key: APP_USERNAME
+        value: darian
+      - key: APP_PASSWORD
+        generateValue: true
+      - key: DATA_DIR
+        value: /var/data
+      - key: TWILIO_ACCOUNT_SID
+        sync: false
+      - key: TWILIO_AUTH_TOKEN
+        sync: false
+      - key: TWILIO_FROM_NUMBER
+        sync: false
+      - key: DEEPGRAM_API_KEY
+        sync: false
+      - key: DEEPGRAM_MODEL
+        value: nova-3
+      - key: DEEPSEEK_API_KEY
+        sync: false
+      - key: DEEPSEEK_MODEL
+        value: deepseek-v4-flash
+      - key: MINIMAX_API_KEY
+        sync: false
+      - key: MINIMAX_VOICE_ID
+        sync: false
+      - key: MINIMAX_MODEL
+        value: speech-2.8-turbo

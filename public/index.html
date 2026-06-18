@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>越南语 AI 电话系统</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <p class="eyebrow">DARIAN · VIETNAM SALES</p>
+          <h1>越南语 AI 电话系统</h1>
+          <p class="subtitle">先模拟完整销售对话，密钥就绪后切换真实外呼。</p>
+        </div>
+        <div id="status" class="status">正在检查系统…</div>
+      </header>
+
+      <section class="grid">
+        <article class="card">
+          <h2>添加客户</h2>
+          <form id="contact-form">
+            <label>姓名<input name="name" required placeholder="Nguyễn Văn An" /></label>
+            <label>公司<input name="company" placeholder="ABC Plastics" /></label>
+            <label>越南手机号<input name="phone" required placeholder="0901234567" /></label>
+            <label>联系许可
+              <select name="contactPermission">
+                <option value="unknown">待确认</option>
+                <option value="granted">已同意联系</option>
+                <option value="denied">禁止联系</option>
+              </select>
+            </label>
+            <label>线索备注<textarea name="notes" placeholder="公开询购TPE，注塑应用…"></textarea></label>
+            <button type="submit">保存客户</button>
+          </form>
+        </article>
+
+        <article class="card contacts-card">
+          <div class="card-heading">
+            <h2>客户与拨号</h2>
+            <button id="refresh" class="secondary">刷新</button>
+          </div>
+          <div id="contacts" class="list"></div>
+        </article>
+      </section>
+
+      <section class="card call-card">
+        <div class="card-heading">
+          <div>
+            <p class="eyebrow">CALL CONSOLE</p>
+            <h2 id="call-title">尚未开始通话</h2>
+          </div>
+          <span id="call-state" class="pill">IDLE</span>
+        </div>
+        <div id="transcript" class="transcript">
+          <p class="empty">选择客户并点击“模拟通话”或“真实拨号”。</p>
+        </div>
+        <form id="simulate-form" class="simulate-form" hidden>
+          <input id="customer-text" placeholder="输入客户说的越南语，例如：Vâng, tôi đang cần TPE..." />
+          <button type="submit">客户说话</button>
+        </form>
+      </section>
+
+      <section class="card">
+        <div class="card-heading">
+          <h2>最近通话</h2>
+        </div>
+        <div id="calls" class="list"></div>
+      </section>
+    </main>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

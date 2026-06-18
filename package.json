@@ -1,0 +1,19 @@
+{
+  "name": "vietnamese-ai-phone-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "clone-voice": "node scripts/clone-voice.js",
+    "test": "node --test",
+    "check": "node --check src/server.js && node --check scripts/clone-voice.js && node --test"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
